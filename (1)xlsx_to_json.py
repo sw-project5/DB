@@ -19,7 +19,7 @@ def xlsx_to_json(file_path, output_file):
 
 # 예시 파일 경로와 출력 파일 경로
 input_file_path = 'db/단어장 파일.xlsx'
-output_file_path = 'db/output2.json'
+output_file_path = 'db/output_json.json'
 
 # XLSX 파일을 JSON으로 변환하여 파일로 저장
 xlsx_to_json(input_file_path, output_file_path)

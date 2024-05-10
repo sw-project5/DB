@@ -38,7 +38,7 @@ def convert_dictionary_list(dictionary_list):
 
 
 # 입력 파일 경로와 출력 파일 경로
-input_file_path = 'db/output2.json'
+input_file_path = 'db/output_json.json'
 output_file_path = 'db/wordDB.py'
 
 # JSON 파일을 딕셔너리로 변환

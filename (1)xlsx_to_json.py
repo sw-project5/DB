@@ -5,7 +5,7 @@ def xlsx_to_json(file_path, output_file):
     # pd.read_excel('경로/파일명/xlsx')
     # engine='openpyxl': 필수
     df = pd.read_excel(file_path, engine='openpyxl')
-
+    
     # JSON으로 변환
     # orient : JSON string format을 결정하는 방향
     # orient='records'
